@@ -1,0 +1,47 @@
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(167, 255, 96);
+}
+
+.q {
+    margin-top: 60px;
+    margin-left: 30px;
+    font-family: cursive;
+    font-size: 35px;
+}
+
+.big { 
+    color: white;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: 30px;
+    margin-left: 60px;
+}
+
+.next {
+    display:none;
+    cursor: pointer;
+    transition: 0.7s;
+    margin-right: 70px;
+    margin-top: 70px;
+    float: right;
+    width: 70px;
+    height: 30px;
+}
+.block{
+display: block;
+
+
+}
+
+.next:hover {
+    box-shadow: 1px 6px 20px red, -1px -6px 20px blue;
+    transition: 0.7s;
+}
+
+
+.efect{
+color: rgb(115, 149, 241);
+transition: 0.6s;
+}
